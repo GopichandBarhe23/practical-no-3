@@ -1,0 +1,98 @@
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+    
+}
+
+.container {
+    width: 80;
+    margin: auto;
+    overflow: hidden;
+    
+}
+#about {
+    background-color: #77aaff;
+}
+#departments {
+    background-color: blanchedalmond;
+}
+#facilities {
+    background-color: brown;
+}
+#collegereview {
+    background-color: coral;
+}
+#keypeople {
+    background-color: rgb(168, 226, 186);
+}
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer .social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 20px;
+    height: 20px;
+}
